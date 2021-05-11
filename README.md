@@ -1,3 +1,10 @@
+Per prima cosa, creiamo un nuovo progetto Laravel 7, utilizzando questo comando: composer create-project --prefer-dist laravel/laravel:^7.0 laravel-primi-passi
+Al termine dell'installazione, entriamo nella cartella del progetto cd laravel-primi-passi e avviamo l'artisan serve con uno di questi due comandi: php artisan serve oppure php -S localhost:8000 -t public
+A questo punto, iniziamo a prendere confidenza con le rotte e le views: cancelliamo la view welcome.blade.php e creiamo una nostra homepage.
+Facciamo quindi sì che la rotta / visualizzi home.blade.php stampiamo un Hello World.
+Bonus: Creiamo più di una pagina e visualizziamo un header menu con i link alle pagine.
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
